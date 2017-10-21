@@ -17,9 +17,6 @@ bot.updateBotConfiguration();
 
 bot.send(Bot.Message.text('Im online now so chat with me'), 'heyitsshuga');
 
-bot.send(Bot.Message.text('Im online now so chat with me'), 'konekoooo');
-
-
 //bot.onTextMessage((incoming, bot) => {
 //     incoming.reply('Hi');
 // });
