@@ -11,9 +11,9 @@ let Bot  = require('@kikinteractive/kik');
 
 // ShugaBot
 let bot = new Bot({
-    username: 'shugabot',
-    apiKey: 'f0707a44-37c1-40ec-91d7-09dd1ff4afd1',
-    baseUrl: 'http://shuga-kik-bot.herokuapp.com:80'
+    username: 'notky1',
+    apiKey: '1b64388a-c81c-41ac-97ed-7965a3dcff71',
+    baseUrl: 'http://notky.herokuapp.com:80'
 });
 
 bot.updateBotConfiguration();
@@ -21,7 +21,7 @@ bot.updateBotConfiguration();
 bot.send(Bot.Message.text('[DEBUG] Started ShugaBot'), 'heyitsshuga');
 
 bot.onTextMessage(/^hi|hello|bonjour|hoi|howdy|hey|sup$/i, (incoming, next) => {
-     incoming.reply('Hello, kind sir! I am ShugaBot, an experiment on Kik. Thanks for talking to me! How are you?');
+     incoming.reply('Ky Is Gay As Fuck');
  });
 
  bot.onTextMessage(/^darn|damn|that sucks|shit|shoot|crap|fuck|f u|fu$/i, (incoming, next) => {
