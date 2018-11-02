@@ -33,8 +33,8 @@ bot.onTextMessage(/^hi|hello|bonjour|hoi|howdy|hey|sup$/i, (incoming, next) => {
    });
 
 
-bot.onTextMessage(/^it sucks|im bad|bad|i'm bad|not so good$/i, (incoming, next) => {
-      incoming.reply('Ok. Get well soon!');
+bot.onTextMessage(/^kill yourself$/i, (incoming, next) => {
+      incoming.reply('no u stupid bitch');
   });
 
   bot.onTextMessage(/^jeffrey stinks|jeffrey sucks|jeffrey is terrible|you stink|you suck$/i, (incoming, next) => {
