@@ -33,7 +33,7 @@ bot.onTextMessage(/^hi|hello|bonjour|hoi|howdy|hey|sup$/i, (incoming, next) => {
    });
 
 
-bot.onTextMessage(/^kill yourself | kys$/i, (incoming, next) => {
+bot.onTextMessage(/^kill yourself|kys$/i, (incoming, next) => {
       incoming.reply('no u stupid bitch');
   });
 
