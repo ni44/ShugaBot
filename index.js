@@ -37,8 +37,8 @@ bot.onTextMessage(/^kill yourself|kys$/i, (incoming, next) => {
       incoming.reply('no u stupid bitch');
   });
 
-  bot.onTextMessage(/^jeffrey stinks|jeffrey sucks|jeffrey is terrible|you stink|you suck$/i, (incoming, next) => {
-       incoming.reply('Lies! Too many lies!');
+  bot.onTextMessage(/^dab$/i, (incoming, next) => {
+       incoming.reply('https://www.bing.com/images/search?view=detailV2&ccid=CaWgyq4z&id=6C34186F7E1869A347B58986FC61270FCDE041BD&thid=OIP.CaWgyq4z9OJyHqvplxfVRgHaFC&mediaurl=http%3a%2f%2fwww.healthandhealthyliving.com%2fwp-content%2fuploads%2f2015%2f09%2fsignals-our-feet-send-to-tell-we-are-not-healthy-do-not-ignore-them.jpg&exph=408&expw=600&q=send+toes&simid=608003454343055090&selectedIndex=13.picture');
    });
 
    bot.onTextMessage(/^no|nope|nah|enope|never|not at all|not$/i, (incoming, next) => {
