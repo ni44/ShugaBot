@@ -29,7 +29,7 @@ bot.onTextMessage(/^hi|hello|bonjour|hoi|howdy|hey|sup$/i, (incoming, next) => {
   });
 
   bot.onTextMessage(/^die|kill yourself|slit your wrist|drink bleach$/i, (incoming, next) => {
-       incoming.reply('I think you have some issues. Telling random robots to kill themselves. You know that us robots have feelings too!');
+       incoming.reply('Carter is a stupid ginger ');
    });
 
 
