@@ -24,8 +24,8 @@ bot.onTextMessage(/^hi|hello|bonjour|hoi|howdy|hey|sup$/i, (incoming, next) => {
      incoming.reply('Ky Is Gay As Fuck');
  });
 
- bot.onTextMessage(/^darn|damn|that sucks|shit|shoot|crap|fuck|f u|fu$/i, (incoming, next) => {
-      incoming.reply('Sucks to be you!');
+ bot.onTextMessage(/^bye$/i, (incoming, next) => {
+      incoming.reply('Harvard Is A Thot');
   });
 
   bot.onTextMessage(/^die|kill yourself|slit your wrist|drink bleach$/i, (incoming, next) => {
