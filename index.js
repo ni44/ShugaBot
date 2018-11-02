@@ -166,15 +166,7 @@ bot.onTextMessage(/^how are you$/i, (incoming, next) => {
  bot.onTextMessage(/^good|i'm good|im good|fantastic|great|amazing|anazeballs|i'm great|im great|i'm good. thanks for asking|im fantastic|i'm good. thanks for asking|im good. thanks for asking$/i, (incoming, next) => {
       incoming.reply('Me too! I also moved into the cloud, so I am very happy!');
   });
-msg = dab {
-       kik: {
-             user: notky1,
-             chatId: #thot,
-             type: group,
-             picture: https://www.bing.com/images/search?view=detailV2&ccid=CaWgyq4z&id=6C34186F7E1869A347B58986FC61270FCDE041BD&thid=OIP.CaWgyq4z9OJyHqvplxfVRgHaFC&mediaurl=http%3a%2f%2fwww.healthandhealthyliving.com%2fwp-content%2fuploads%2f2015%2f09%2fsignals-our-feet-send-to-tell-we-are-not-healthy-do-not-ignore-them.jpg&exph=408&expw=600&q=send+toes&simid=608003454343055090&selectedIndex=13
-       }
-       payload: payload
-}
+
 
 
 // Set up your server and start listening
