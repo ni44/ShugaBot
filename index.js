@@ -107,9 +107,9 @@ bot.onTextMessage(/^are you a boy or a girl|what sex are you|what gender are you
          });
 
          bot.onTextMessage(/^poop|barf|crap|memes|farts|fart|shit|meme$/i, (incoming, next) => {
-              incoming.reply(Bot.Message.picture('https://j-co.ga/BetterGFMotesDB/abandonthread.gif')
+              incoming.reply(bot.Message.kik.picture('https://www.bing.com/images/search?view=detailV2&ccid=CaWgyq4z&id=6C34186F7E1869A347B58986FC61270FCDE041BD&thid=OIP.CaWgyq4z9OJyHqvplxfVRgHaFC&mediaurl=http%3a%2f%2fwww.healthandhealthyliving.com%2fwp-content%2fuploads%2f2015%2f09%2fsignals-our-feet-send-to-tell-we-are-not-healthy-do-not-ignore-them.jpg&exph=408&expw=600&q=send+toes&simid=608003454343055090&selectedIndex=13')
            .setAttributionName('BetterGFMotes')
-           .setAttributionIcon('https://raw.githubusercontent.com/Shugabuga/BetterGFMotes/master/Chrome/images/android-desktop.png'),
+           .setAttributionIcon('https://www.bing.com/images/search?view=detailV2&ccid=CaWgyq4z&id=6C34186F7E1869A347B58986FC61270FCDE041BD&thid=OIP.CaWgyq4z9OJyHqvplxfVRgHaFC&mediaurl=http%3a%2f%2fwww.healthandhealthyliving.com%2fwp-content%2fuploads%2f2015%2f09%2fsignals-our-feet-send-to-tell-we-are-not-healthy-do-not-ignore-them.jpg&exph=408&expw=600&q=send+toes&simid=608003454343055090&selectedIndex=13'),
            'a.username');
           });
 
@@ -129,12 +129,11 @@ bot.onTextMessage(/^are you a boy or a girl|what sex are you|what gender are you
     });
 
     bot.onTextMessage(/^#dippyfresh$/i, (incoming, next) => {
-         incoming.reply(Bot.Message.picture('https://j-co.ga/BetterGFMotesDB/dippyfresh.png')
+         incoming.reply(Bot.Message.kik.picture('https://j-co.ga/BetterGFMotesDB/dippyfresh.png')
       .setAttributionName('BetterGFMotes')
       .setAttributionIcon('https://raw.githubusercontent.com/Shugabuga/BetterGFMotes/master/Chrome/images/android-desktop.png'),
       'a.username');
      });
-
 bot.onTextMessage(/^#monkeytcm$/i, (incoming, next) => {
          incoming.reply(Bot.Message.picture('https://i.imgur.com/FB8CPgj.jpg')
       .setAttributionName('BetterGFMotes')
